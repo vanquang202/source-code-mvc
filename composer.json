@@ -1,0 +1,21 @@
+{
+    "name": "admin/assignment",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Illuminate\\" : "illuminate/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vanquang202",
+            "email": "83849198+vanquang202@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phroute/phroute": "^2.1",
+        "illuminate/database": "^9.1",
+        "illuminate/events": "^9.1",
+        "eftec/bladeone": "^4.4" 
+    }
+}
