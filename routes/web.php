@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Router\Route;
+use Illuminate\RouterApp\Router as Route;
 
 /**
  * Code me
