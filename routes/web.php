@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Route\Route;
+use Illuminate\Router\Route;
 
 /**
  * Code me
  */
-Route::get('/',[App\Controllers\DashboardController::class, 'index']);
+Route::get('/', [App\Controllers\DashboardController::class, 'index']);
